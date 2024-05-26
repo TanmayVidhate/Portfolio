@@ -1,7 +1,7 @@
 # Portfolio 🙋‍♂️
-It's a collection or showcase of your work, like projects, skills, and achievements, displayed on a website.  
+It's a collection or *showcase* of our work, like projects, skills, and achievements, displayed on a website.  
 
-The project is created using ```HTML5```, ```CSS3```, and ```JavaScript```.HTML5 is used for the give the ***structure*** to the webpages and, CSS3 is for the ***design***,***color***,and **responsive** for multipale devices,**CSS animations** use in website so output of website become more attractive.  and **JavaScript** is for interactive elements or special features.
+The project is created using ```HTML5```, ```CSS3```, and ```JavaScript```. HTML5 is used for the give the ***structure*** to the webpages and, CSS3 is for the ***design***,***color***,and **responsive** for multipale devices,**CSS animations** also use in website so output of website become more attractive.  and **JavaScript** is for interactive elements or special features.
 It's like your online resume or digital showcase to share with others.
 ***HTML5***, ***CSS3***, ***Javascript***.
 

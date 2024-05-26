@@ -12,5 +12,13 @@ It's like your online resume or digital showcase to share with others.
 - How to use media query.
 - Color Combination and theme selections.
 
-
 ## Author Name:-Tanmay Vidhate.
+
+![img1](./image/Screenshot%20(100).png)
+
+---
+![img2](./image/Screenshot%20(101).png)
+
+---
+
+![img1](./image/Screenshot%20(102).png)

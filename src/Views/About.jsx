@@ -20,7 +20,9 @@ function About() {
                                         MERN Stack developer
                                     </h1>
                                     <p className='text-sm md:text-md leading-tight'>
-                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam a ullam molestias, dignissimos sint impedit! Architecto aut fugit ad asperiores!
+                                        I build full-stack applications using the MERN stack.<br/>
+                                        I work on both the frontend and backend to make websites smooth and easy to use.
+                                        I enjoy learning new things in technology and improving my skills every day.<br/>
                                     </p>
                                 </span>
                             </div>

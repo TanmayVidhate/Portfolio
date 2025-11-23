@@ -27,10 +27,12 @@ function Navbar() {
                 </ul>
                 {
                     showMenu ? (
-                        <RiMenu2Line size={30} className='md:hidden absolute right-10 top-6 transition-all duration-300' onClick={() => {
-                            openMenu(!menu); setShowmenu(!showMenu)
+                        <RiMenu2Line size={30} className=' md:hidden absolute right-10 top-6 transition-all duration-300' onClick={() => {
+                            openMenu(!menu) 
                         }} />
-                    ) : <RiCloseLine size={30} className='md:hidden absolute right-10 top-6 transition-all duration-300' />
+                    ) : <RiCloseLine size={30} className='md:hidden absolute right-10 top-6 transition-all duration-300' onClick={()=>{
+                            setShowmenu(!showMenu)
+                    }} />
                 }
             </nav>
         </>

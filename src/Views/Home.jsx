@@ -1,5 +1,5 @@
 import React from 'react'
-import imag1 from '.././assets/7358602-removebg-preview.png'
+import imag1 from '.././assets/hero-img.png'
 
 function Home() {
     return (

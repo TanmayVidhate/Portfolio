@@ -17,7 +17,7 @@ function Skills() {
     "transition-all duration-300 hover:text-[#8FA5FF] hover:-translate-y-1";
 
   return (
-    <div id="Skills" className="p-10 md:p-24 text-white">
+    <div id="Skills" className=" text-white bg-black bg-opacity-30 shadow-xl p-12 my-20 rounded-lg overflow-hidden md:p-24 md:mx-8">
       <div className="flex flex-col lg:flex-row justify-center gap-16">
 
         {/* SKILLS */}

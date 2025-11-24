@@ -11,7 +11,7 @@ function About() {
   return (
     <div
       id="About"
-      className="text-white bg-black bg-opacity-30 shadow-xl p-12 rounded-lg overflow-hidden md:mx-8"
+      className="text-white bg-black bg-opacity-30 shadow-xl p-12 mt-10 rounded-lg overflow-hidden md:mx-8"
     >
       <h2 className={headerStyle}>About</h2>
 

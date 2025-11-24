@@ -4,6 +4,8 @@ import Home from './Views/Home'
 import About from './Views/About'
 import Skills from './Views/Skills'
 import ScrollToTop from './Components/ScrollToTop'
+import Footer from './Components/Footer'
+import  Contact  from './Views/Contact'
 
 function App() {
   return (
@@ -13,7 +15,9 @@ function App() {
         <Home/>
         <About/>
         <Skills/>
+        <Contact/>
         <ScrollToTop />
+        <Footer/>
       </div>
     </>
   )

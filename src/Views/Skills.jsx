@@ -6,9 +6,8 @@ import { TbBrandGithub } from "react-icons/tb";
 
 function Skills() {
   const iconStyle =
-    "p-3 bg-zinc-950 rounded-2xl cursor-pointer transition-all duration-300 " +
-    "hover:scale-105 hover:bg-zinc-900 hover:border hover:border-gray-600 " +
-    "hover:shadow-[0_0_15px_rgba(255,255,255,0.3)]";
+    "p-3 bg-zinc-950 rounded-2xl cursor-pointer transition-all duration-300 border border-[#171d32] " +
+    "hover:scale-105 hover:bg-zinc-900 hover:border hover:border-gray-600 zzhover:shadow-[0_0_15px_rgba(255,255,255,0.3)]"
 
   const headerStyle =
     "text-2xl md:text-4xl font-bold mb-6 relative w-fit " +

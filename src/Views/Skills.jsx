@@ -9,6 +9,7 @@ function Skills() {
     "p-3 bg-zinc-950 rounded-2xl cursor-pointer transition-all duration-300 border border-[#171d32] " +
     "hover:scale-105 hover:bg-zinc-900 hover:border hover:border-gray-600 zzhover:shadow-[0_0_15px_rgba(255,255,255,0.3)]"
 
+
   const headerStyle =
     "text-2xl md:text-4xl font-bold mb-6 relative w-fit " +
     "after:content-[''] after:block after:h-[3px] after:w-0 after:bg-[#8FA5FF] " +
@@ -41,7 +42,7 @@ function Skills() {
           <h1 className={headerStyle}>Tools</h1>
 
           <div className="flex flex-wrap gap-6 md:gap-8">
-            <span className={iconStyle}><SiVite size={50} /></span>
+            <span className={iconStyle}><SiVite size={50} color="#41D1FF" /></span>
             <span className={iconStyle}><FaNpm size={50} color="#CC3534" /></span>
             <span className={iconStyle}><SiPostman size={50} color="#EF5B25" /></span>
             <span className={iconStyle}><VscVscode size={50} color="#007ACC" /></span>

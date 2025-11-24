@@ -12,7 +12,7 @@ function Home() {
                     <p className='text-sm md:text-2xl tracking-tight'>
                         I am Msc (CA) Student. MERN Stack Developer passionate about technology and web development.
                     </p>
-                    <button className='mt-5 md:md-10 text-white py02 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]'>
+                    <button className='mt-5 md:md-10 text-white py02 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697] sm:h-9 sm:w-1/2'>
                         <a href='Tanmay_Vidhate_7028982917.pdf' download>Download Resume</a>
                     </button>
                 </div>

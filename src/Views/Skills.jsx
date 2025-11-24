@@ -64,7 +64,7 @@ function Skills() {
           <div>
             <h1 className='text-2xl md:text-4xl text-white font-bold'>Tools</h1>
             <div className=''>
-              <div className='flex flex-wrap items-start justify-around '>
+              <div className='flex flex-wrap items-start justify-start '>
                 <div className='flex flex-wrap  gap-5 md:p-12 py-10 '>
                   <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
                     <FaHtml5 size={50} color='#E34F26' />

@@ -4,7 +4,7 @@ import imag1 from '.././assets/hero-img.png'
 function Home() {
     return (
         <>
-            <div className='text-white flex w-full justify-between items-start p-10 sm:flex-col md:p-15 '>
+            <div className='text-white  w-full justify-between items-start p-10 sm:flex-col md:p-15 '>
                 <div className='border border-red-400 sm:py-5 sm:px-4 md:w-full md:pt-10'>
                     <h1 className='  font-bold flex leading-normal tracking-tighter sm:text-4xl  md:text-5xl'>
                         Hello, I am Tanmay Vidhate.

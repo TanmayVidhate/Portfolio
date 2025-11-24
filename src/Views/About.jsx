@@ -5,12 +5,12 @@ import Aboutimg from ".././assets/about-us.png"
 function About() {
     return (
         <>
-            <div id="About" className='text-white  overflow-hidden bg-black shadow-xl mx-0 items-center   md:flex md:flex-wrap md:justify-center md:mx-8 bg-opacity-30 rounded-lg p-12 '>
-                <div className='border border-red-600'>
+            <div id="About" className='text-white  overflow-hidden bg-black shadow-xl mx-0 items-center md:flex md:flex-wrap md:justify-center md:mx-8 bg-opacity-30 rounded-lg p-12 '>
+                <div className=''>
                     <h2 className='text-2xl font-bold md:text-4xl'>About</h2>
-                    <div className='items-center sm:flex sm:justify-center sm:items-center md:flex md:flex-col lg:flex-row border border-red-600'>
+                    <div className='items-center sm:flex sm:justify-center sm:items-center md:flex md:flex-col lg:flex-row'>
                         <div className='md:w-full lg:w-full '>
-                            <img className="sm:w-1/2 md:block md:m-auto lg:w-3/4 border border-red-600" src={Aboutimg} alt="about image" />
+                            <img className="sm:w-1/2 md:block md:m-auto lg:w-3/4 " src={Aboutimg} alt="about image" />
                         </div>
                         <div className='lg:w-full'>
                             <ul >

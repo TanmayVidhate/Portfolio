@@ -8,11 +8,11 @@ import { TbBrandGithub } from "react-icons/tb";
 function Skills() {
   return (
     <>
-      <div id="Skills" className='p-10 md:p-24'>
-        <div className='flex justify-center items-center  sm:flex-col sm:w-full '>
+      <div id="Skills" className='p-10 md:p-24 lg:p-24'>
+        <div className='flex justify-center items-center  sm:flex-col sm:w-full lg:flex-row '>
 
           {/* first div */}
-          <div>
+          <div className='sm:flex-col sm:w-full border  border-red-400'>
             <h1 className='text-2xl md:text-4xl text-white font-bold '>Skills</h1>
             <div className=''>
               <div className='flex flex-wrap items-center justify-start'>
@@ -58,7 +58,7 @@ function Skills() {
           </div>
 
           {/* Second Div */}
-          <div className=' sm:flex-col sm:w-full'>
+          <div className=' sm:flex-col sm:w-full lg:h-[400px] border border-red-800'>
             <h1 className='text-2xl md:text-4xl text-white font-bold'>Tools</h1>
             <div className=''>
               <div className='flex flex-wrap items-center justify-start  '>

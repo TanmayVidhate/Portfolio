@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar'
 import Home from './Views/Home'
 import About from './Views/About'
 import Skills from './Views/Skills'
+import ScrollToTop from './Components/ScrollToTop'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Home/>
         <About/>
         <Skills/>
+        <ScrollToTop />
       </div>
     </>
   )

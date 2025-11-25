@@ -18,7 +18,7 @@ function About() {
       <div className="flex flex-col lg:flex-row items-center justify-center gap-10 ">
 
         {/* LEFT IMAGE */}
-        <div className="w-full lg:w-1/2 flex justify-center sm:order-2 md:order-2">
+        <div className="w-full lg:w-1/2 flex justify-center sm:order-2 md:order-2 lg:order-1">
           <img
             src={Aboutimg}
             alt="about"

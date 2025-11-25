@@ -2,6 +2,8 @@ import React from 'react';
 import Form from '../Components/Form';
 import email from '.././assets/Email.png';
 
+import toast, { Toaster } from 'react-hot-toast';
+
 function Contact() {
     const headerStyle =
         "text-2xl md:text-4xl font-bold mb-6 relative w-fit " +
@@ -22,7 +24,7 @@ function Contact() {
 
                     {/* Left Side - Form */}
                     <div className="w-full px-2 flex justify-center items-center sm:px-4 md:px-6 md:w-full ">
-                        <Form />
+                        <Form toast={toast}  Toaster={Toaster}/>
                     </div>
 
                     {/* Right Side - Image */}

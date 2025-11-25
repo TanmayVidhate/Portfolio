@@ -18,13 +18,15 @@ function Contact() {
                 className="text-white bg-black bg-opacity-30 shadow-xl p-12 my-10 rounded-lg overflow-hidden  md:mx-8 "
             >
                 <h2 className={headerStyle}>Contact</h2>
-
+                <p className="text-sm sm:text-base md:text-lg text-gray-300 mt-2">
+                    Need a developer? Let’s build together.Drop me a message and I’ll get back to you as soon as possible.
+                </p>
                 <div className="flex flex-col  items-center justify-center 
                                 gap-8 md:gap-10 lg:gap-14 mt-8 md:mt-12 md:flex-col md:justify-center md:items-center lg:flex-row">
 
                     {/* Left Side - Form */}
                     <div className="w-full px-2 flex justify-center items-center sm:px-4 md:px-6 md:w-full ">
-                        <Form toast={toast}  Toaster={Toaster}/>
+                        <Form toast={toast} Toaster={Toaster} />
                     </div>
 
                     {/* Right Side - Image */}

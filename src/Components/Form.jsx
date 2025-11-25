@@ -8,8 +8,8 @@ const Form = () => {
         e.preventDefault();
 
         emailjs
-            .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, {
-                publicKey: 'YOUR_PUBLIC_KEY',
+            .sendForm('service_1780f7r', 'template_tqm3xq8', form.current, {
+                publicKey: 'AVVfdM55Qvc_HKV1q',
             })
             .then(
                 () => {
@@ -32,7 +32,7 @@ const Form = () => {
                 <label className="text-lg mb-1">Name</label>
                 <input
                     type="text"
-                    name="user_name"
+                    name="name"
                     className="px-4 py-3 rounded-lg bg-white/20 border border-white/30 
                  focus:outline-none focus:border-[#8FA5FF] focus:ring-2 focus:ring-[#8FA5FF] 
                  text-white placeholder-gray-200"
@@ -46,7 +46,7 @@ const Form = () => {
                 <label className="text-lg mb-1">Email</label>
                 <input
                     type="email"
-                    name="user_email"
+                    name="email"
                     className="px-4 py-3 rounded-lg bg-white/20 border border-white/30 
                  focus:outline-none focus:border-[#8FA5FF] focus:ring-2 focus:ring-[#8FA5FF] 
                  text-white placeholder-gray-200"

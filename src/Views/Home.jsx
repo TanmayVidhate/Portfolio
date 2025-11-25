@@ -6,11 +6,15 @@ import { FaLinkedin } from "react-icons/fa";
 
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 
+
+
 function Home() {
     const [ text ] = useTypewriter({
         words: ['Tanmay Vidhate.', 'MERN Stack Developer.'],
-        loop: true,
+        loop: {},
     })
+
+   
 
     return (
         <div className="w-full min-h-screen text-white lg:px-24 px-10 py-16 flex flex-col lg:flex-row justify-between items-center relative">

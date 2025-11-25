@@ -15,10 +15,10 @@ function About() {
     >
       <h2 className={headerStyle}>About</h2>
 
-      <div className="flex flex-col lg:flex-row items-center justify-center gap-10">
+      <div className="flex flex-col lg:flex-row items-center justify-center gap-10 lg:">
 
         {/* LEFT IMAGE */}
-        <div className="w-full lg:w-1/2 flex justify-center">
+        <div className="w-full lg:w-1/2 flex justify-center md:order-2">
           <img
             src={Aboutimg}
             alt="about"
@@ -27,13 +27,13 @@ function About() {
               rounded-full 
               transition-all duration-300 
               hover:scale-105 hover:-translate-y-2
-              hover:shadow-[0_0_35px_rgba(255,255,255,0.3)]
+              hover:shadow-[0_0_35px_rgba(255,255,255,0.3)] 
             "
           />
         </div>
 
         {/* RIGHT TEXT */}
-        <div className="w-full lg:w-1/2">
+        <div className="w-full md:order-1 lg:w-1/2">
 
           {/* Title */}
           <h1

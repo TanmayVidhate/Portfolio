@@ -14,16 +14,16 @@ function Home() {
         <section className="w-full min-h-screen flex justify-center px-6 py-16">
 
             {/* MAX WIDTH CONTAINER – prevents breaking on large screens */}
-            <div className="w-full max-w-7xl flex flex-col md:flex-row items-center justify-between gap-12">
+            <div className="w-full max-w-7xl flex flex-col md:flex-col lg:flex-row items-center justify-between gap-12">
 
                 {/* TEXT SECTION */}
-                <div className="w-full md:w-1/2 text-white">
+                <div className="w-full md:w-3/4 text-white">
 
-                    <h1 className="font-bold leading-tight tracking-tight text-4xl md:text-5xl flex flex-col">
+                    <h1 className="font-bold leading-tight tracking-tight text-4xl md:text-4xl   flex flex-col">
                         <span>Hello, I'm</span>
 
                         {/* FIXED HEIGHT BOX TO STOP MOVING */}
-                        <span className="h-12 sm:h-14 md:h-16 lg:h-20 flex items-center overflow-hidden">
+                        <span className="h-20  sm:h-14 md:h-16 lg:h-20 flex items-center overflow-hidden">
                             <span className="bg-gradient-to-r from-[#8FA5FF] to-purple-400 bg-clip-text text-transparent">
                                 {text}
                             </span>

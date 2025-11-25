@@ -9,7 +9,7 @@ function Home() {
         alert("hi");
         const link = document.createElement("a");
         link.href = "/Tanmay_Vidhate_7028982917.pdf.pdf";
-        link.download = "/Tanmay_Vidhate_7028982917.pdf";
+        link.download = "Tanmay_Vidhate_7028982917.pdf";
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);

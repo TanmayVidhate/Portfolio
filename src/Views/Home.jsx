@@ -13,8 +13,8 @@ function Home() {
     });
 
     return (
-        <div className="w-full min-h-screen text-white px-6 sm:px-10 md:px-16 lg:px-24 py-16 
-                        flex flex-col lg:flex-row justify-between items-center gap-10 
+        <div className="w-full  text-white px-6 sm:px-10 md:px-16 lg:px-24 lg:min-h-screen py-16 
+                        flex flex-col lg:flex-row justify-start items-center gap-10 
                         relative overflow-hidden">
 
             {/* BACKGROUND GLOW */}
@@ -90,7 +90,7 @@ function Home() {
             </div>
 
             {/* RIGHT IMAGE SECTION */}
-            <div className="w-full lg:w-1/3 flex justify-center fade-in-up delay-200">
+            <div className="w-full lg:w-1/3 flex justify-center fade-in-up delay-200 ">
                 <img
                     className="w-48 sm:w-64 md:w-72 lg:w-80 xl:w-96 rounded-full 
                                transition-all duration-500 hover:scale-110 hover:-translate-y-2 

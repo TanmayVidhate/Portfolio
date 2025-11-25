@@ -63,17 +63,26 @@ function Home() {
 
                 {/* BUTTONS */}
                 <div className="mt-8 flex gap-4">
-                    <button
-                        // download
-                        className="bg-[#465697] hover:bg-[#5b6bb0] py-1 hover:scale-105 transition-all duration-300 
-                       text-white font-semibold rounded-md h-10 px-6 text-lg shadow-lg"
-                        onClick={downloadResume}
+                    {/* Download Resume */}
+                    <a
+                        href="https://drive.google.com/uc?export=download&id=1CRJcqREp1hg8i-Soe_Z56cngFPW8lBXg"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="bg-gray-800 hover:bg-gray-700 text-white font-medium rounded-md h-10 px-6 py-1 text-lg shadow-sm transition-colors duration-200"
                     >
                         Download Resume
-                    </button>
+                    </a>
 
+                    {/* View Resume */}
+                    <a
+                        href="https://drive.google.com/file/d/1CRJcqREp1hg8i-Soe_Z56cngFPW8lBXg/view?usp=sharing"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="bg-gray-200 hover:bg-gray-300 text-gray-800 font-medium rounded-md h-10 px-6 py-1 text-lg shadow-sm transition-colors duration-200"
+                    >
+                        View Resume
+                    </a>
                 </div>
-
             </div>
 
             {/* RIGHT IMAGE SECTION */}

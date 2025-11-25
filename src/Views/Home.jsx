@@ -5,6 +5,15 @@ import { TbBrandGithub } from "react-icons/tb";
 import { FaLinkedin } from "react-icons/fa";
 
 function Home() {
+    const downloadResume = () => {
+        const link = document.createElement("a");
+        link.href = "/Tanmay_Vidhate_7028982917.pdf.pdf";
+        link.download = "/Tanmay_Vidhate_7028982917.pdf";
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    }
+
     return (
         <div className="w-full min-h-screen text-white lg:px-24 px-10 py-16 flex flex-col lg:flex-row justify-between items-center relative">
 
@@ -53,14 +62,14 @@ function Home() {
 
                 {/* BUTTONS */}
                 <div className="mt-8 flex gap-4">
-                    <a
-                        href="Tanmay_Vidhate_7028982917.pdf"
+                    <button
                         download
                         className="bg-[#465697] hover:bg-[#5b6bb0] py-1 hover:scale-105 transition-all duration-300 
                        text-white font-semibold rounded-md h-10 px-6 text-lg shadow-lg"
+                        onClick={() => downloadResume}
                     >
                         Download Resume
-                    </a>
+                    </button>
 
                 </div>
 

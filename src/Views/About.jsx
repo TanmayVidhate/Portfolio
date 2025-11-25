@@ -1,5 +1,5 @@
 import React from "react";
-import Aboutimg from "../assets/about-us.png";
+import Aboutimg from "../../src/assets/About.png";
 
 function About() {
   const headerStyle =

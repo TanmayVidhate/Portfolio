@@ -28,5 +28,20 @@ This website showcases my projects, skills, experience, and provides a way to co
 
 ## 📸 Screenshots
 
-(Add your images here — optional)
+![Page1 Screenshot](src/assets/screenshot/page1.png)
+
+
+![Page1 Screenshot](src/assets/screenshot/page2.png)
+
+
+![Page1 Screenshot](src/assets/screenshot/page3.png)
+
+
+![Page1 Screenshot](src/assets/screenshot/page4.png)
+
+
+![Page1 Screenshot](src/assets/screenshot/page5.png)
+
+
+![Page1 Screenshot](src/assets/screenshot/page6.png)
 

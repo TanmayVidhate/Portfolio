@@ -4,16 +4,13 @@ import imag1 from "../assets/hero-img.png";
 import { TbBrandGithub } from "react-icons/tb";
 import { FaLinkedin } from "react-icons/fa";
 
+import { useTypewriter, Cursor } from 'react-simple-typewriter';
+
 function Home() {
-    const downloadResume = () => {
-        alert("hi");
-        const link = document.createElement("a");
-        link.href = "/Tanmay_Vidhate_7028982917.pdf.pdf";
-        link.download = "Tanmay_Vidhate_7028982917.pdf";
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-    }
+    const [ text ] = useTypewriter({
+        words: ['Tanmay Vidhate.', 'MERN Stack Developer.'],
+        loop: true,
+    })
 
     return (
         <div className="w-full min-h-screen text-white lg:px-24 px-10 py-16 flex flex-col lg:flex-row justify-between items-center relative">
@@ -30,9 +27,9 @@ function Home() {
                 <h1 className="font-bold leading-tight tracking-tight text-4xl md:text-5xl">
                     Hello, I'm{" "}
                     <span className="bg-gradient-to-r from-[#8FA5FF] to-purple-400 bg-clip-text text-transparent">
-                        Tanmay Vidhate
+                        {text}
                     </span>
-                    .
+                    <Cursor />
                 </h1>
 
                 <p className="text-base sm:text-xl mt-4 md:text-xl tracking-tight text-gray-300">

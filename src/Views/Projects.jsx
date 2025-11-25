@@ -1,5 +1,6 @@
 import React from 'react'
 import project1 from '../assets/project/project_1.png'
+import project2 from '../assets/project/project_2.png'
 
 function Projects() {
 
@@ -60,20 +61,20 @@ function Projects() {
                     <div className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col">
                         {/* Project Image */}
                         <img
-                            src={project1} // replace with your image path
+                            src={project2} // replace with your image path
                             alt="TripList App"
                             className="w-full h-48 object-fill"
                         />
 
                         <div className="p-6 flex flex-col flex-grow">
-                            <h3 className="text-gray-900 text-2xl font-semibold mb-2">TripList App</h3>
+                            <h3 className="text-gray-900 text-2xl font-semibold mb-2">Donor Circle</h3>
                             <p className="text-gray-600 mb-4 flex-grow">
-                                A handy checklist app to manage items before your next trip!
+                                DonorCircle connects blood donors with people in need for quick and easy blood donation support.
                             </p>
 
                             <div className="flex gap-4 mt-4">
                                 <a
-                                    href="https://tripelist.netlify.app/"
+                                    href="https://donorcircle-2.onrender.com/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-md h-10 px-4 py-2 text-sm shadow-sm transition-colors duration-200"
@@ -81,7 +82,7 @@ function Projects() {
                                     Live Demo
                                 </a>
                                 <a
-                                    href="https://github.com/TanmayVidhate/tripelist"
+                                    href="https://github.com/TanmayVidhate/DonorCircle_2"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="bg-gray-800 hover:bg-gray-700 text-white font-medium rounded-md h-10 px-4 py-2 text-sm shadow-sm transition-colors duration-200"

@@ -6,6 +6,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 function Home() {
     const downloadResume = () => {
+        alert("hi");
         const link = document.createElement("a");
         link.href = "/Tanmay_Vidhate_7028982917.pdf.pdf";
         link.download = "/Tanmay_Vidhate_7028982917.pdf";
@@ -63,10 +64,10 @@ function Home() {
                 {/* BUTTONS */}
                 <div className="mt-8 flex gap-4">
                     <button
-                        download
+                        // download
                         className="bg-[#465697] hover:bg-[#5b6bb0] py-1 hover:scale-105 transition-all duration-300 
                        text-white font-semibold rounded-md h-10 px-6 text-lg shadow-lg"
-                        onClick={() => downloadResume}
+                        onClick={downloadResume}
                     >
                         Download Resume
                     </button>

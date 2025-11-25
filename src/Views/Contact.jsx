@@ -35,7 +35,7 @@ function Contact() {
                             src={email}
                             alt="contact"
                             className="
-                                max-w-[200px] 
+                                max-w-[300px] 
                                 sm:max-w-[260px] 
                                 md:max-w-[430px] 
                                 lg:max-w-[400px] 

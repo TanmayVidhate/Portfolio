@@ -23,7 +23,7 @@ function About() {
             src={Aboutimg}
             alt="about"
             className="
-              w-1/2 sm:w-1/2 md:w-2/3 lg:w-3/4 
+              w-5/6 sm:w-1/2 md:w-2/3 lg:w-3/4  
               rounded-full 
               transition-all duration-300 
               hover:scale-105 hover:-translate-y-2

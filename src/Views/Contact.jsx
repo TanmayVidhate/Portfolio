@@ -1,6 +1,8 @@
 import React from 'react'
 import Form from '../Components/Form'
 
+import email from '.././assets/Email.png'
+
 function Contact() {
 
     const headerStyle =
@@ -11,10 +13,27 @@ function Contact() {
 
     return (
         <>
-            <div id="Contact" className=" text-white bg-black bg-opacity-30 shadow-xl p-12 my-20 rounded-lg overflow-hidden md:p-24 md:mx-8">
+            <div
+                id="Contact"
+                className="text-white bg-black bg-opacity-30 shadow-xl p-12 my-20 rounded-lg overflow-hidden md:p-24 md:mx-8"
+            >
                 <h2 className={headerStyle}>Contact</h2>
-                <Form/>
+
+                <div className="flex flex-col md:flex-row gap-5 mt-10">
+
+                    {/* Left Side - Form */}
+                    <div className="w-full md:w-1/2">
+                        <Form />
+                    </div>
+
+                    {/* Right Side - Image */}
+                    <div className="w-full md:w-1/2 flex justify-center items-center">
+                        <img src={email} alt="contact" className="max-w-full h-auto" />
+                    </div>
+
+                </div>
             </div>
+
         </>
     )
 }

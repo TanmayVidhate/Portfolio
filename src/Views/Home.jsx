@@ -27,7 +27,7 @@ function Home() {
             <div className="w-full lg:w-2/3 flex flex-col gap-4 fade-in-up text-center lg:text-left ">
 
                 <h1 className="font-bold leading-tight tracking-tight 
-                               text-3xl sm:text-4xl lg:text-3xl md:text-4xl xl:text-5xl">
+                               text-xl sm:text-4xl lg:text-3xl md:text-4xl xl:text-5xl">
                     Hello, I'm{" "}
                     <span className="bg-gradient-to-r from-[#8FA5FF] to-purple-400 bg-clip-text text-transparent">
                         {text}

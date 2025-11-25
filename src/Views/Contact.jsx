@@ -13,10 +13,7 @@ function Contact() {
         <>
             <div
                 id="Contact"
-                className="text-white bg-black bg-opacity-30 shadow-xl 
-                           p-5 sm:p-8 md:p-16 lg:p-20 xl:p-24
-                           my-10 sm:my-14 md:my-20 lg:my-28 xl:my-32
-                           rounded-lg overflow-hidden mx-3 sm:mx-5 md:mx-8 lg:mx-16"
+                className="text-white bg-black bg-opacity-30 shadow-xl p-12 my-10 rounded-lg overflow-hidden  md:mx-8 "
             >
                 <h2 className={headerStyle}>Contact</h2>
 

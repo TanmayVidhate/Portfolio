@@ -15,10 +15,10 @@ function About() {
     >
       <h2 className={headerStyle}>About</h2>
 
-      <div className="flex flex-col lg:flex-row items-center justify-center gap-10 lg:">
+      <div className="flex flex-col lg:flex-row items-center justify-center gap-10 ">
 
         {/* LEFT IMAGE */}
-        <div className="w-full lg:w-1/2 flex justify-center md:order-2">
+        <div className="w-full lg:w-1/2 flex justify-center sm:order-2 md:order-2">
           <img
             src={Aboutimg}
             alt="about"
@@ -33,7 +33,7 @@ function About() {
         </div>
 
         {/* RIGHT TEXT */}
-        <div className="w-full md:order-1 lg:w-1/2">
+        <div className="w-full sm:order-1 md:order-1 lg:w-1/2">
 
           {/* Title */}
           <h1

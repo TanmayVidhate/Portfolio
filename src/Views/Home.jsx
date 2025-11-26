@@ -1,5 +1,5 @@
 import React from "react";
-import imag1 from "../assets/hero-img.png";
+import imag1 from "../assets/profile/tanmay.jpeg";
 
 import { TbBrandGithub } from "react-icons/tb";
 import { FaLinkedin } from "react-icons/fa";
@@ -90,11 +90,11 @@ function Home() {
             </div>
 
             {/* RIGHT IMAGE SECTION */}
-            <div className="w-full lg:w-1/3 flex justify-center fade-in-up delay-200 ">
+            <div className="lg:w-1/3 flex justify-center fade-in-up delay-200 rounded-full   overflow-hidden ">
                 <img
-                    className="w-48 sm:w-64 md:w-72 lg:w-80 xl:w-96 rounded-full 
+                    className="
                                transition-all duration-500 hover:scale-110 hover:-translate-y-2 
-                               shadow-[0_0_25px_rgba(255,255,255,0.25)]"
+                               shadow-[0_0_25px_rgba(255,255,255,0.25)] w-48 h-48 sm:w-56 sm:h-56 md:w-60 md:h-60 lg:w-64 lg:h-64 xl:w-96 xl:h-96 xl:object-center object-cover " 
                     src={imag1}
                     alt="Hero"
                 />

@@ -6,11 +6,16 @@ function Navbar() {
 
   const linkStyle =
     "relative cursor-pointer transition-all duration-300 " +
-    "after:content-[''] after:block after:h-[2px] after:w-0 after:bg-[#8FA5FF] " +
+    "after:content-[''] after:block after:h-[10px] after:w-0 after:bg-[#8FA5FF] " +
     "after:transition-all after:duration-300 hover:after:w-full hover:text-[#8FA5FF]";
 
   return (
     <>
+      {/* HALF-PAGE BLUR (Top 50%) */}
+      {open && (
+        <div className="fixed top-0 left-0 w-full h-[100vh] backdrop-blur-md bg-black/40 z-30 md:hidden"></div>
+      )}
+
       <nav className="flex justify-between items-center text-white px-10 pt-6 lg:px-24 relative">
 
         {/* LOGO */}
@@ -20,27 +25,35 @@ function Navbar() {
 
         {/* MENU ITEMS */}
         <ul
-          className={`absolute md:static left-0 w-full md:w-auto bg-black md:bg-transparent bg-opacity-50 
+          className={`absolute md:static left-0 w-full z-40 md:w-auto  md:bg-transparent bg-opacity-50 
             rounded-xl text-center md:flex gap-6 font-semibold transition-all duration-300 
-            ${open ? "top-16 opacity-100" : "top-[-300px] opacity-0 md:opacity-100"}`}
+            ${open ? "top-16 opacity-100" : "top-[300px] opacity-0 md:opacity-100"}`}
         >
-          <a href="#About"><li className={linkStyle}>About</li></a>
-          <a href="#Skills"><li className={linkStyle}>Skills</li></a>
-          <a href="#Projects"><li className={linkStyle}>Projects</li></a>
-          <a href="#Contact"><li className={linkStyle}>Contact</li></a>
+          <a href="#About" onClick={() => setOpen(false)}>
+            <li className={linkStyle}>About</li>
+          </a>
+          <a href="#Skills" onClick={() => setOpen(false)}>
+            <li className={linkStyle}>Skills</li>
+          </a>
+          <a href="#Projects" onClick={() => setOpen(false)}>
+            <li className={linkStyle}>Projects</li>
+          </a>
+          <a href="#Contact" onClick={() => setOpen(false)}>
+            <li className={linkStyle}>Contact</li>
+          </a>
         </ul>
 
         {/* MENU ICON */}
         {open ? (
           <RiCloseLine
             size={30}
-            className="absolute right-10 top-6 md:hidden cursor-pointer transition-all duration-300 hover:scale-110"
+            className="absolute right-10 top-6 md:hidden cursor-pointer transition-all duration-300 hover:scale-110 z-50"
             onClick={() => setOpen(false)}
           />
         ) : (
           <RiMenu2Line
             size={30}
-            className="absolute right-10 top-6 md:hidden cursor-pointer transition-all duration-300 hover:scale-110"
+            className="absolute right-10 top-6 md:hidden cursor-pointer transition-all duration-300 hover:scale-110 z-50"
             onClick={() => setOpen(true)}
           />
         )}

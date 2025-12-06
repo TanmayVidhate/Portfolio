@@ -1,54 +1,61 @@
-import React from 'react';
-import Form from '../Components/Form';
-import email from '.././assets/Email.png';
+import React from "react";
+import Form from "../Components/Form";
+import email from ".././assets/Email.png";
 
-import toast, { Toaster } from 'react-hot-toast';
+import toast, { Toaster } from "react-hot-toast";
 
 function Contact() {
-    const headerStyle =
-        "text-2xl md:text-4xl font-bold mb-6 relative w-fit " +
-        "after:content-[''] after:block after:h-[3px] after:w-0 after:bg-[#8FA5FF] " +
-        "after:transition-all after:duration-300 hover:after:w-full " +
-        "transition-all duration-300 hover:text-[#8FA5FF] hover:-translate-y-1";
+  const headerStyle =
+    "text-2xl md:text-4xl font-bold mb-6 relative w-fit " +
+    "after:content-[''] after:block after:h-[3px] after:w-0 after:bg-[#8FA5FF] " +
+    "after:transition-all after:duration-300 hover:after:w-full " +
+    "transition-all duration-300 hover:text-[#8FA5FF] hover:-translate-y-1";
 
-    return (
-        <>
-            <div
-                id="Contact"
-                className="text-white bg-black bg-opacity-30 shadow-xl p-12 my-10 rounded-lg overflow-hidden  md:mx-8 "
-            >
-                <h2 className={headerStyle}>Contact</h2>
-                <p className="text-sm sm:text-base md:text-lg text-gray-300 mt-2">
-                    Need a developer? Let’s build together.Drop me a message and I’ll get back to you as soon as possible.
-                </p>
-                <div className="flex flex-col  items-center justify-center 
-                                gap-8 md:gap-10 lg:gap-14 mt-8 md:mt-12 md:flex-col md:justify-center md:items-center lg:flex-row">
+  return (
+    <>
+      <div
+        id="Contact"
+        className="text-white bg-black bg-opacity-30 shadow-xl p-12 my-10 rounded-lg overflow-hidden  md:mx-8 "
+      >
+        <h2 className={headerStyle}>Contact</h2>
+        <p className="text-sm sm:text-base md:text-lg text-gray-300 mt-2">
+          Need a developer? Let’s build together.Drop me a message and I’ll get
+          back to you as soon as possible.
+        </p>
+        <div
+          className="flex flex-col  items-center justify-center 
+                                gap-8 md:gap-10 lg:gap-14 mt-8 md:mt-12 md:flex-col md:justify-center md:items-center lg:flex-row"
+        >
+          {/* Left Side - Form */}
+          <div className="w-full px-2 flex justify-center items-center sm:px-4 md:px-6 md:w-full ">
+            <Form toast={toast} Toaster={Toaster} />
+          </div>
 
-                    {/* Left Side - Form */}
-                    <div className="w-full px-2 flex justify-center items-center sm:px-4 md:px-6 md:w-full ">
-                        <Form toast={toast} Toaster={Toaster} />
-                    </div>
-
-                    {/* Right Side - Image */}
-                    <div className="w-full md:w-full flex justify-center items-center ">
-                        <img
-                            src={email}
-                            alt="contact"
-                            className="
+          {/* Right Side - Image */}
+          <div
+            style={{
+              background:
+                "radial-gradient(circle, rgba(150,160,254,1) 0%, rgba(16,20,35,1) 60%)",
+            }}
+            className="w-full md:w-full flex justify-center items-center p-8 "
+          >
+            <img
+              src={email}
+              alt="contact"
+              className="
                                 max-w-[300px] 
                                 sm:max-w-[260px] 
                                 md:max-w-[430px] 
                                 lg:max-w-[400px] 
-                                xl:max-w-[580px]
-                                h-auto drop-shadow-lg
+                                xl:max-w-[560px]
+                                h-auto 
                             "
-                        />
-                    </div>
-
-                </div>
-            </div>
-        </>
-    );
+            />
+          </div>
+        </div>
+      </div>
+    </>
+  );
 }
 
 export default Contact;

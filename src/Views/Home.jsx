@@ -13,11 +13,7 @@ function Home() {
   });
 
   return (
-    <div
-      className="w-full text-white px-6 sm:px-10 md:px-16 lg:px-24 lg:min-h-screen py-16 
-                        flex justify-center items-center gap-4 
-                        relative overflow-hidden max-lg:flex-wrap-reverse lg:flex-row"
-    >
+    <div className="relative flex items-center justify-center w-full gap-4 px-6 py-16 overflow-hidden text-white sm:px-10 md:px-16 lg:px-24 lg:min-h-screen max-lg:flex-wrap-reverse lg:flex-row">
       {/* BACKGROUND GLOW */}
       <div className="absolute inset-0 -z-10">
         <div className="absolute top-20 left-5 sm:left-10 w-56 sm:w-72 h-56 sm:h-72 bg-[#8FA5FF] blur-[120px] opacity-30"></div>
@@ -25,11 +21,8 @@ function Home() {
       </div>
 
       {/* LEFT SECTION */}
-      <div className="w-full lg:w-2/3 flex flex-col gap-4 fade-in-up text-center lg:text-left ">
-        <h1
-          className="font-bold leading-tight tracking-tight 
-                               text-xl sm:text-4xl lg:text-3xl md:text-4xl xl:text-5xl"
-        >
+      <div className="flex flex-col w-full gap-4 text-center lg:w-2/3 fade-in-up lg:text-left ">
+        <h1 className="text-xl font-bold leading-tight tracking-tight sm:text-4xl lg:text-3xl md:text-4xl xl:text-5xl">
           Hello, I'm{" "}
           <span className="bg-gradient-to-r from-[#8FA5FF] to-purple-400 bg-clip-text text-transparent">
             {text}
@@ -37,13 +30,13 @@ function Home() {
           <Cursor />
         </h1>
 
-        <p className="text-sm sm:text-base md:text-lg xl:text-xl text-gray-300 max-w-xl mx-auto lg:mx-0">
+        <p className="max-w-xl mx-auto text-sm text-gray-300 sm:text-base md:text-lg xl:text-xl lg:mx-0">
           MSc (CA) student & passionate MERN Stack Developer who loves building
           clean, responsive and user-friendly web applications.
         </p>
 
         {/* SOCIAL ICONS */}
-        <div className="flex justify-center lg:justify-start gap-5 mt-4">
+        <div className="flex justify-center gap-5 mt-4 lg:justify-start">
           <a
             href="https://www.linkedin.com/in/tanmay-vidhate/"
             target="_blank"
@@ -64,15 +57,13 @@ function Home() {
         </div>
 
         {/* BUTTONS */}
-        <div className="mt-6 flex flex-wrap justify-center lg:justify-start gap-4">
+        <div className="flex flex-wrap justify-center gap-4 mt-6 lg:justify-start">
           {/* Download Resume */}
           <a
             href="https://drive.google.com/uc?export=download&id=1CRJcqREp1hg8i-Soe_Z56cngFPW8lBXg"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-gray-800 hover:bg-gray-700 text-white font-medium 
-                                   rounded-md px-6 py-2 text-base sm:text-lg shadow-sm
-                                   transition-colors duration-200 max-sm:w-72 tracking-wide"
+            className="px-6 py-2 text-base font-medium tracking-wide text-white transition-colors duration-200 bg-gray-800 rounded-md shadow-sm hover:bg-gray-700 sm:text-lg max-sm:w-72"
           >
             Download Resume
           </a>
@@ -82,9 +73,7 @@ function Home() {
             href="https://drive.google.com/file/d/1CRJcqREp1hg8i-Soe_Z56cngFPW8lBXg/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-gray-200 hover:bg-gray-300 text-gray-800 font-medium 
-                                   rounded-md px-6 py-2 text-base sm:text-lg shadow-sm
-                                   transition-colors duration-200 max-sm:w-72 tracking-wide"
+            className="px-6 py-2 text-base font-medium tracking-wide text-gray-800 transition-colors duration-200 bg-gray-200 rounded-md shadow-sm hover:bg-gray-300 sm:text-lg max-sm:w-72"
           >
             View Resume
           </a>
@@ -92,11 +81,9 @@ function Home() {
       </div>
 
       {/* RIGHT IMAGE SECTION */}
-      <div className="fade-in-up delay-200 rounded-full overflow-hidden ">
+      <div className="overflow-hidden delay-200 rounded-full fade-in-up ">
         <img
-          className="
-                               transition-all duration-500 hover:scale-105 hover:-translate-y-2 bg-white rounded-full
-                               shadow-[0_0_25px_rgba(255,255,255,0.25)] object-contain sm:w-56 sm:h-56 w-48 h-48 lg:min-w-80 lg:min-h-80"
+          className=" transition-all duration-500 hover:scale-105 hover:-translate-y-2 bg-white rounded-full  shadow-[0_0_25px_rgba(255,255,255,0.25)] object-contain sm:w-56 sm:h-56 w-48 h-48 lg:min-w-80 lg:min-h-80"
           src={imag1}
           alt="Hero"
         />

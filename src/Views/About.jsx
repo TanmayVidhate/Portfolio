@@ -16,9 +16,14 @@ function About() {
       <h2 className={headerStyle}>About</h2>
 
       <div className="flex flex-col lg:flex-row items-center justify-center gap-10 ">
-
         {/* LEFT IMAGE */}
-        <div className="w-full lg:w-1/2 flex justify-center order-2 sm:order-2 md:order-2 lg:order-1">
+        <div
+          style={{
+            background:
+              "radial-gradient(circle, rgba(150,160,254,1) 0%, rgba(16,20,35,1) 50%)",
+          }}
+          className="w-full lg:w-1/2 flex justify-center order-2 sm:order-2 md:order-2 lg:order-1 p-4 rounded-full"
+        >
           <img
             src={Aboutimg}
             alt="about"
@@ -27,14 +32,13 @@ function About() {
               rounded-full 
               transition-all duration-300 
               hover:scale-105 hover:-translate-y-2
-              hover:shadow-[0_0_35px_rgba(255,255,255,0.3)] 
+              
             "
           />
         </div>
 
         {/* RIGHT TEXT */}
         <div className="w-full sm:order-1 md:order-1 lg:w-1/2">
-
           {/* Title */}
           <h1
             className="
@@ -50,9 +54,10 @@ function About() {
 
           {/* Intro Paragraph */}
           <p className="text-sm sm:text-xl md:text-md leading-tight mb-6">
-            I build full-stack applications using the MERN stack.
-            I work on both the frontend and backend to create smooth and efficient web experiences.
-            I enjoy learning new technologies and improving my development skills every day.
+            I build full-stack applications using the MERN stack. I work on both
+            the frontend and backend to create smooth and efficient web
+            experiences. I enjoy learning new technologies and improving my
+            development skills every day.
           </p>
 
           {/* EXPERIENCE SECTION */}
@@ -73,17 +78,32 @@ function About() {
               Professional Experience
             </h3>
 
-            <p className="text-sm sm:text-lg"><strong>Software Engineer Intern</strong></p>
-            <p className="text-sm sm:text-lg mb-2">Erdac Solutions Pvt. Ltd. (Feb 2025 - June 2025)</p>
+            <p className="text-sm sm:text-lg">
+              <strong>Software Engineer Intern</strong>
+            </p>
+            <p className="text-sm sm:text-lg mb-2">
+              Erdac Solutions Pvt. Ltd. (Feb 2025 - June 2025)
+            </p>
 
             <ul className="list-disc ml-5 text-sm sm:text-lg space-y-1 leading-tight">
-              <li>Designed, developed, and maintained software applications using React, Vite, and TypeScript.</li>
-              <li>Diagnosed and resolved bugs and performance issues to improve stability.</li>
-              <li>Wrote clean and maintainable code following best practices using Git & GitHub.</li>
-              <li>Collaborated with cross-functional teams to plan and deliver new features.</li>
+              <li>
+                Designed, developed, and maintained software applications using
+                React, Vite, and TypeScript.
+              </li>
+              <li>
+                Diagnosed and resolved bugs and performance issues to improve
+                stability.
+              </li>
+              <li>
+                Wrote clean and maintainable code following best practices using
+                Git & GitHub.
+              </li>
+              <li>
+                Collaborated with cross-functional teams to plan and deliver new
+                features.
+              </li>
             </ul>
           </div>
-
         </div>
       </div>
     </div>

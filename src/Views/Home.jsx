@@ -1,5 +1,5 @@
 import React from "react";
-import imag1 from "../assets/profile/tanmay.jpeg";
+import imag1 from "../assets/profile/tanmay.png";
 
 import { TbBrandGithub } from "react-icons/tb";
 import { FaLinkedin } from "react-icons/fa";
@@ -95,7 +95,7 @@ function Home() {
       <div className="fade-in-up delay-200 rounded-full overflow-hidden ">
         <img
           className="
-                               transition-all duration-500 hover:scale-105 hover:-translate-y-2 
+                               transition-all duration-500 hover:scale-105 hover:-translate-y-2 bg-white rounded-full
                                shadow-[0_0_25px_rgba(255,255,255,0.25)] object-contain sm:w-56 sm:h-56 w-48 h-48 lg:min-w-80 lg:min-h-80"
           src={imag1}
           alt="Hero"

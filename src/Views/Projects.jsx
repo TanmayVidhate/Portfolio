@@ -19,11 +19,11 @@ function Projects() {
                     Here are some of my recent projects. Click the buttons to view live demos or check the code on GitHub.
                 </p>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-5">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mt-5">
                     {/* Example Project Card */}
 
                     {/* project 1 */}
-                    <div className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col">
+                    <div className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col lg:w-3/5">
                         {/* Project Image */}
                         <img
                             src={project1} // replace with your image path
@@ -59,7 +59,7 @@ function Projects() {
                     </div>
 
                     {/* project 2 */}
-                    <div className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col">
+                    <div className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col lg:w-3/5">
                         {/* Project Image */}
                         <img
                             src={project2} // replace with your image path

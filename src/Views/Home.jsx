@@ -60,7 +60,7 @@ function Home() {
         <div className="flex flex-wrap justify-center gap-4 mt-6 lg:justify-start">
           {/* Download Resume */}
           <a
-            href="https://drive.google.com/uc?export=download&id=1CRJcqREp1hg8i-Soe_Z56cngFPW8lBXg"
+            href="https://drive.google.com/uc?export=download&id=1iii0R4OKTz-B7dElxOYC230Vl8Mnwj5N"
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-2 text-base font-medium tracking-wide text-white transition-colors duration-200 bg-gray-800 rounded-md shadow-sm hover:bg-gray-700 sm:text-lg max-sm:w-72"
@@ -70,7 +70,8 @@ function Home() {
 
           {/* View Resume */}
           <a
-            href="https://drive.google.com/file/d/1CRJcqREp1hg8i-Soe_Z56cngFPW8lBXg/view?usp=sharing"
+            href="https://drive.google.com/file/d/1iii0R4OKTz-B7dElxOYC230Vl8Mnwj5N/view?usp=sharing"
+            
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-2 text-base font-medium tracking-wide text-gray-800 transition-colors duration-200 bg-gray-200 rounded-md shadow-sm hover:bg-gray-300 sm:text-lg max-sm:w-72"
